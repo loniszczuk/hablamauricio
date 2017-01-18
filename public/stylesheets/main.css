@@ -1,27 +1,15 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+body {
+  background-color: #f4df42;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
+@font-face {font-family: 'VAGRoundedStdBold'; src: url('fonts/vagroundedstd-bold.html'); src: url('/fonts/vagroundedstd-bold.html') format('embedded-opentype'), url('/fonts/vagroundedstd-bold-2.html') format('woff'), url('/fonts/vagroundedstd-bold-3.html') format('truetype'), url('/fonts/vagroundedstd-bold.svg#VAGRoundedStdBold') format('svg'); }
+
+div.phrase {
+  text-align: center;
+  font-family: 'VAGRoundedStdBold';
+  font-weight: bold;
+  font-weight: 500;
+  line-height: 1.1;
+  font-size: 60px;
+}
