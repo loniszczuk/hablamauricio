@@ -1,13 +1,18 @@
 @font-face {font-family: 'VAGRoundedStdBold'; src: url('fonts/vagroundedstd-bold.html'); src: url('/fonts/vagroundedstd-bold.html') format('embedded-opentype'), url('/fonts/vagroundedstd-bold-2.html') format('woff'), url('/fonts/vagroundedstd-bold-3.html') format('truetype'), url('/fonts/vagroundedstd-bold.svg#VAGRoundedStdBold') format('svg'); }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: #f4df42;
   overflow: hidden;
+  height: 100%;
 }
 
 .main {
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
 .header {
