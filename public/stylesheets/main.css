@@ -1,15 +1,52 @@
-body {
-  background-color: #f4df42;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
 @font-face {font-family: 'VAGRoundedStdBold'; src: url('fonts/vagroundedstd-bold.html'); src: url('/fonts/vagroundedstd-bold.html') format('embedded-opentype'), url('/fonts/vagroundedstd-bold-2.html') format('woff'), url('/fonts/vagroundedstd-bold-3.html') format('truetype'), url('/fonts/vagroundedstd-bold.svg#VAGRoundedStdBold') format('svg'); }
 
-div.phrase {
-  text-align: center;
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f4df42;
+  overflow: hidden;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  height: 100%;
+}
+
+.header {
+  height: 80px;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.mauricio {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.joke {
+  height: 350px ;
+  text-align: left;
   font-family: 'VAGRoundedStdBold';
   font-weight: bold;
   font-weight: 500;
   line-height: 1.1;
   font-size: 60px;
+
 }

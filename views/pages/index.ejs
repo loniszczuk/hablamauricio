@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
+  <% include ../partials/head.ejs %>
 </head>
 
 <body>
+  <div class="main">
+    <div class="header">
+    </div>
 
-<div class="phrase">
-  Hola! Habla Mauricio!<br>
-  <%= phrase %>
-</div>
+    <div class="content">
+      <div class="joke">
+        <ul>
+          <li>- Hola! Habla Mauricio!</li>
+          <li>- ¿Qué Mauricio?</li>
+          <li>- <%= phrase %></li>
+        </ul>
+      </div>
+      <div class="mauricio">
+        <img class="mauricio" src="/img/mauricio.webp" />
+      </div>
+    </div>
 
-<% include ../partials/footer.ejs %>
+    <div class="footer">
+      <ul>
+        <li>concilio</li>
+      </ul>
+    </div>
+  </div>
+  <% include ../partials/footer.ejs %>
 </body>
 </html>
