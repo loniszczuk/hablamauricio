@@ -1,6 +1,6 @@
 {
   "name": "Habla Mauricio",
-  "description": "A barebones Node.js app using Express 4",
+  "description": "Los chistes de Mauricio",
   "repository": "https://github.com/heroku/hablamauricio",
   "keywords": ["hablamauricio", "macrigato", "concilio"],
   "image": "heroku/nodejs"
